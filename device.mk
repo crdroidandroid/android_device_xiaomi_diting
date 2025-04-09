@@ -13,6 +13,9 @@ $(call inherit-product, vendor/xiaomi/diting/diting-vendor.mk)
 # MIUI Camera
 $(call inherit-product, device/xiaomi/miuicamera-cupid/device.mk)
 
+# Blur
+TARGET_ENABLE_BLUR := true
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths_waipio_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/mixer_paths_waipio_mtp.xml \
