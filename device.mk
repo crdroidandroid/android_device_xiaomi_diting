@@ -13,6 +13,9 @@ $(call inherit-product, vendor/xiaomi/diting/diting-vendor.mk)
 # Blur
 TARGET_ENABLE_BLUR := true
 
+# DeviceAsWebcam
+TARGET_BUILD_DEVICE_AS_WEBCAM := true
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths_waipio_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_cape/mixer_paths_waipio_mtp.xml \
