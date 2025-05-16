@@ -12,6 +12,7 @@ $(call inherit-product, vendor/xiaomi/diting/diting-vendor.mk)
 
 # MIUI Camera
 $(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
+$(call soong_config_set,camera,package_name,com.android.camera)
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -47,3 +48,6 @@ PRODUCT_COPY_FILES += \
 # Vibrator
 $(call soong_config_set,qti_vibrator,effect_lib,libqtivibratoreffect.xiaomi)
 $(call soong_config_set,qti_vibrator,use_effect_stream,true)
+
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.miui.notch=1
