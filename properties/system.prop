@@ -1,2 +1,8 @@
 # Xiaomi
 ro.product.mod_device=diting
+
+# infinity
+ro.infinity.soc=Snapdragon 8+ Gen 1
+ro.infinity.battery=5000 mAh
+ro.infinity.display=2712 x 1220, 120 Hz
+ro.infinity.camera=200MP + 8MP + 2MP
