@@ -1,6 +1,3 @@
-# Xiaomi
-ro.product.mod_device=diting
-
 # infinity
 ro.infinity.soc=Snapdragon 8+ Gen 1
 ro.infinity.battery=5000 mAh

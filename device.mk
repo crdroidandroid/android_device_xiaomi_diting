@@ -56,4 +56,5 @@ $(call soong_config_set,qti_vibrator,effect_lib,libqtivibratoreffect.xiaomi)
 $(call soong_config_set,qti_vibrator,use_effect_stream,true)
 
 PRODUCT_SYSTEM_PROPERTIES += \
-    ro.miui.notch=1
+    ro.miui.notch=1 \
+    ro.product.mod_device=diting_global
