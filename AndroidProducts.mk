@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/infinity_diting.mk
+    $(LOCAL_DIR)/lineage_diting.mk

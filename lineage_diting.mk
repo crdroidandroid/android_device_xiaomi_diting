@@ -8,9 +8,9 @@
 $(call inherit-product, device/xiaomi/diting/device.mk)
 
 # Inherit from common lineage configuration
-$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := infinity_diting
+PRODUCT_NAME := lineage_diting
 PRODUCT_DEVICE := diting
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
@@ -24,11 +24,14 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-# Infinity stuff
-INFINITY_BUILD_TYPE := OFFICIAL
+
+EXTRA_UDFPS_ANIMATIONS := true
+TARGET_ENABLE_BLUR := true
+PRODUCT_NO_CAMERA := true
+TARGET_BOOT_ANIMATION_RES := 1440
+TARGET_HAS_UDFPS := true
+
+
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_BUILD_APERTURE_CAMERA := false
 TARGET_HAS_UDFPS := true
-INFINITY_MAINTAINER := Jezzay97
-TARGET_SUPPORTS_BLUR := true
-WITH_GAPPS := true
