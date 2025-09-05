@@ -12,6 +12,7 @@ $(call inherit-product, vendor/xiaomi/diting/diting-vendor.mk)
 
 # MiuiCamera
 $(call inherit-product-if-exists, device/xiaomi/miuicamera-diting/device.mk)
+$(call soong_config_set,camera,package_name,com.android.camera)
 
 # Blur
 TARGET_ENABLE_BLUR := true
