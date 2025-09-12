@@ -1,0 +1,54 @@
+[
+    {
+        "repository": "crdroidandroid/android_device_xiaomi_sm8450-common",
+        "target_path": "device/xiaomi/sm8450-common",
+        "branch":"16.0-diting"
+    },
+    {
+        "repository": "crdroidandroid/android_device_xiaomi_miuicamera",
+        "target_path": "device/xiaomi/miuicamera-diting",
+        "remote": "crdroid-gitlab",
+        "branch":"16.0-diting"
+    },
+    {
+        "repository": "crdroidandroid/android_hardware_xiaomi",
+        "target_path": "hardware/xiaomi",
+        "branch":"16.0-diting"
+    },
+    {
+        "repository": "crdroidandroid/android_hardware_dolby",
+        "target_path": "hardware/dolby",
+        "branch":"16.0"
+    },
+    {
+        "repository": "crdroidandroid/android_kernel_xiaomi_sm8450",
+        "target_path": "kernel/xiaomi/sm8450",
+        "branch":"16.0-diting"
+    },
+    {
+        "repository": "crdroidandroid/android_kernel_xiaomi_sm8450-devicetrees",
+        "target_path": "kernel/xiaomi/sm8450-devicetrees",
+        "branch":"16.0-diting"
+    },
+    {
+        "repository": "crdroidandroid/android_kernel_xiaomi_sm8450-modules",
+        "target_path": "kernel/xiaomi/sm8450-modules",
+        "branch":"16.0-diting"
+    },
+    {
+        "repository": "crdroidandroid/proprietary_vendor_xiaomi_diting",
+        "target_path": "vendor/xiaomi/diting",
+        "branch":"16.0"
+    },
+    {
+        "repository": "crdroidandroid/proprietary_vendor_xiaomi_sm8450-common",
+        "target_path": "vendor/xiaomi/sm8450-common",
+        "branch":"16.0-diting"
+    },
+    {
+        "repository": "crdroidandroid/proprietary_vendor_xiaomi_miuicamera",
+        "target_path": "vendor/xiaomi/miuicamera-diting",
+        "remote": "crdroid-gitlab",
+        "branch":"16.0-diting"
+    }
+]
