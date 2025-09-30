@@ -15,6 +15,9 @@ include vendor/xiaomi/diting/BoardConfigVendor.mk
 
 DEVICE_PATH := device/xiaomi/diting
 
+# MiuiCamera
+-include device/xiaomi/miuicamera-diting/BoardConfig.mk
+
 # Audio
 AUDIO_FEATURE_ENABLED_CIRRUS_CALIBRATION_RESISTANCE := true
 
