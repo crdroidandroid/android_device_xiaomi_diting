@@ -1089,7 +1089,7 @@ vendor/etc/thermal-region-map.conf
 vendor/etc/thermal-tgame.conf
 vendor/etc/thermal-video.conf
 vendor/etc/thermal-videochat.conf
-vendor/etc/thermald-devices.conf
+vendor/etc/thermald-devices.conf|fdc68bd039a5573cea495150f9f25f4cf503475b
 
 # Touchscreen
 vendor/firmware/goodix_cfg_group_l12.bin
